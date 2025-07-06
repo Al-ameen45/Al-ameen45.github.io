@@ -99,7 +99,9 @@ p {
     padding: 4rem 0;
     text-align: center;
 }
-
+.features-image img{
+    max-width: 100%;
+}
 .features-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -214,7 +216,7 @@ p {
 }
 
 /* Responsive Design */
-@media (max-width: 1440px)and (min-width: 375px) {
+@media (max-width: 600px) {
     .header {
         background-image: url('images/bg-header-mobile.png');
     }
@@ -232,10 +234,9 @@ p {
         gap: 2rem;
     }
      .features-image{
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
+        max-width: 100%;
+     }
+
     .features-content {
         text-align: center;
         padding-left: 0;
@@ -264,67 +265,4 @@ p {
         flex-direction: column;
         gap: 1rem;
     }
-}
-
-
-@media (max-width: 600px) {
-    .container {
-        padding: 0 1rem;
-    }
-
-    .header {
-        padding: 4rem 0 2rem;
-    }
-
-    h1 {
-        font-size: 1.4rem;
-    }
-
-    h2 {
-        font-size: 1.1rem;
-    }
-
-    .features,
-    .access,
-    .workflow,
-    .partners,
-    .download {
-        padding: 2rem 0;
-    }
-
-    .features-grid,
-    .workflow-grid,
-    .partners-grid {
-        grid-template-columns: 1fr;
-        gap: 1.2rem;
-    }
-
-    .features-content {
-        padding-left: 0;
-    }
-
-    .cta-buttons {
-        flex-direction: column;
-        gap: 0.7rem;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
-
-    .footer-nav {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .footer-logo {
-        width: 40px;
-    }
-    .features-image{
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 }
