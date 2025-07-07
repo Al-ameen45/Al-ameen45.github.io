@@ -252,7 +252,7 @@ p {
         padding-left: 0;
     }
     .workflow-item img{
-        width: 100%;
+        width: 50%;
     }
 
     .workflow-grid {
@@ -282,8 +282,9 @@ p {
         flex-wrap: wrap;
     }
 
-    .footer-nav {
+    .footer-content .footer-nav {
         display: flex;
+        justify-content: space-around;
         flex-wrap: wrap;
         flex-direction: column;
         gap: 1rem;
