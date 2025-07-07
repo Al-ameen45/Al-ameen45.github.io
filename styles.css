@@ -260,6 +260,9 @@ p {
     .cta-buttons {
         flex-direction: column;
     }
+    .footer{
+        width: 100%;
+    }
 
     .footer-content {
         flex-direction: column;
