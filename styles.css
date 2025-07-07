@@ -250,11 +250,8 @@ p {
         text-align: center;
         padding-left: 0;
     }
-    .workflow-item img{
-        width: 30%;
-    }
-
-    .workflow-grid {
+    
+  .workflow-grid {
         grid-template-columns: 1fr;
         display: flex;
         flex-direction: column;
