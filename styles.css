@@ -99,7 +99,7 @@ p {
     padding: 4rem 0;
     text-align: center;
 }
-features-image img{
+.features-image img{
     width: 100%;
 }
 .features-grid {
@@ -235,7 +235,7 @@ features-image img{
         gap: 2rem;
     }
 
-    .features-image {
+    .features-image img {
         max-width: 100%;
         height: auto;
         display: block;
@@ -290,7 +290,7 @@ features-image img{
         gap: 2rem;
     }
 
-    .features-image {
+    .features-image img {
         max-width: 100%;
         height: auto;
         display: block;
@@ -344,7 +344,7 @@ features-image img{
         gap: 2rem;
     }
 
-    .features-image {
+    .features-image img {
         max-width: 100%;
         height: auto;
         display: block;
