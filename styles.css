@@ -149,6 +149,7 @@ p {
 
 .workflow-item img {
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 /* Partners Section */
@@ -242,6 +243,9 @@ p {
     .features-content {
         text-align: center;
         padding-left: 0;
+    }
+    .workflow-item img{
+        width: 100%;
     }
 
     .workflow-grid {
