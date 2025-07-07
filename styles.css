@@ -151,7 +151,6 @@ p {
 
 .workflow-item img {
     margin-bottom: 2rem;
-    width: 100%;
 }
 
 /* Partners Section */
@@ -252,7 +251,7 @@ p {
         padding-left: 0;
     }
     .workflow-item img{
-        width: 50%;
+        width: 30%;
     }
 
     .workflow-grid {
@@ -273,6 +272,7 @@ p {
     }
     .footer{
         width: 100%;
+        height: 100px;
     }
 
     .footer-content {
